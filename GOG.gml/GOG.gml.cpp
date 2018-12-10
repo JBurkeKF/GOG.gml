@@ -431,7 +431,8 @@ dllx double gog_update() {
 }
 ///
 dllx double gog_init(char* client_id, char* client_secret) {
-	galaxy::api::Init(client_id, client_secret, false);
+	galaxy::api::InitOptions initOptions = galaxy::api::InitOptions(client_id, client_secret);
+	galaxy::api::Init(initOptions);
 	GalaxyAsync = new GalaxyAsyncImpl();
 	User()->SignIn();
 	if (GalaxyOK) trace("Init OK");
