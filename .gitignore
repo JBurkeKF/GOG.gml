@@ -1,4 +1,5 @@
 .vs/
+.DS_Store
 */Configs/*/*
 */extensions/*/*.cpp
 */extensions/*/*.dll
@@ -17,3 +18,7 @@ help.rtf
 /GOG.gml.gmx/datafiles/live.js
 /GOG.gml.VC.VC.opendb
 /GOG.gml/GOG.gml.o
+/GOG.gml/x86/*
+/GOG.gml/x64/*
+/GOG.gml.gmx/extensions/GOG.gml/x86/*
+/GOG.gml.gmx/extensions/GOG.gml/x64/*
